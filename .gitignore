@@ -182,3 +182,8 @@ Desktop.ini
 
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
+
+# Umbraco files and folders
+Faucon.AppsAndSports/Faucon.AppsAndSports.Website/umbraco/
+Faucon.AppsAndSports/Faucon.AppsAndSports.Website/umbraco_client/
+Faucon.AppsAndSports/Faucon.AppsAndSports.Website/install/
