@@ -187,3 +187,5 @@ $RECYCLE.BIN/
 Faucon.AppsAndSports/Faucon.AppsAndSports.Website/umbraco/
 Faucon.AppsAndSports/Faucon.AppsAndSports.Website/umbraco_client/
 Faucon.AppsAndSports/Faucon.AppsAndSports.Website/install/
+Faucon.AppsAndSports/Faucon.AppsAndSports.Website/App_Data/Logs/
+Faucon.AppsAndSports/Faucon.AppsAndSports.Website/App_Data/TEMP/

@@ -1,0 +1,22 @@
+﻿<div>
+    <div class="form-horizontal">
+        <div class="form-group">
+            <div class="col-sm-2">
+                <span ng-bind="challenger"></span>
+            </div>
+            <div class="col-sm-2">
+                <span ng-bind="challenged"></span>
+            </div>
+        </div>
+        <div ng-repeat="set in sets" class="form-group">
+            <div class="col-sm-2">
+                <input type="text" ng-model="set.home" class="form-control" id="set_home_{{$index}}" required="required" integers-only>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" ng-model="set.away" class="form-control" id="set_away_{{$index}}" required="required" integers-only>
+            </div>
+            <button class="btn btn-danger" ng-click="sets.splice($index, 1)"><span class="glyphicon glyphicon-remove"></span></button>
+        </div>
+    </div>
+    <button class="btn btn-primary" ng-click="add()">Add</button>
+</div>
